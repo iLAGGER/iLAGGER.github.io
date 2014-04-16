@@ -1,0 +1,51 @@
+html
+{
+    
+    background: #474747;
+    background-image: url("images/subtle-grey.png");
+}
+#one
+{
+    margin:0 auto;
+	height: 150px;
+    width: 700px;
+    background: rgba(40, 40, 40, 0.7);
+    padding: 10px;
+    color: #fff;
+    font-size: 105%;
+    font-family: 'Arial';
+}
+#avatar
+{
+    float: left;
+	height: 150px;
+    width: 150px;
+    padding-right: 15px;
+}
+#two
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 315px;
+	height: 200px;
+    width: 335px;
+    background: rgba(40, 40, 40, 0.7);
+    padding: 10px;
+    color: #fff;
+    font-size: 105%;
+    font-family: 'Arial';
+}
+#three
+{
+    
+    margin-top: 10px;
+    margin-left: 680px;
+	height: 200px;
+    width: 335px;
+    background: rgba(40, 40, 40, 0.7);
+    padding: 10px;
+    color: #fff;
+    font-size: 105%;
+    font-family: 'Arial';
+    
+}

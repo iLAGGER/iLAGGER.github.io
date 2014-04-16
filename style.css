@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+    background: url ("images/background.jpg");
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+    background: #666;
+    color:#fff;
+    font-size:15px;
+}
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+.header {
+	height: 50px;
+    background: linear-gradient(to top, #494949,#292929);
+    padding: 10px;
+}
+
+.middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 40px 70px 40px 270px;
+}
+
+.left-sidebar {
+	float: left;
+	width: 130px;
+    height: 415px;
+	margin-left: -98%;
+	position: relative;
+    background: #666;
+    padding: 40px;
+    
+}
+
+.footer {
+	margin: -50px auto 0;
+	min-width: 1000px;
+	height: 50px;
+	background: linear-gradient(to top, #292929, #494949);
+	position: relative;
+}
+.user
+{   
+    position:fixed;
+    left: 800px;
+    bottom: 620px;
+}
+input
+{
+    width: 130px;
+    padding:4px 10px 4px 10px;
+    border-radius:5px;
+    position:relative; 
+    border:2px solid #898989;
+	background:  #595959;
+    color:#fff;
+}
+input:hover
+{
+    background:  #797979; 
+}
+input:active
+{
+	background:  #999999;
+}
+button
+{
+    width: 130px;
+    padding:4px 10px 4px 10px;
+    border-radius:5px;
+    position:relative; 
+    border:2px solid #898989;
+	background:  #595959;
+    color:#fff;
+    margin-top: 5px;
+}
+button:hover
+{
+	background:  #797979;
+}
+select
+{
+    width: 130px;
+    padding:6px 10px 6px 10px;
+    border-radius:5px;
+    position:relative; 
+    border:2px solid #898989;
+	background:  #595959;
+    color:#fff;
+    width: 200px;
+}
+.buttom
+{
+    width: 130px;
+    padding:7px 10px 7px 10px;
+    border-radius:5px;
+    position:relative; 
+    border:2px solid #898989;
+	background:  #595959;
+    color:#fff;
+    width: 200px; 
+}
+.moto
+{
+    position: absolute;
+    left: 1250px;
+    bottom: 50px; 
+}

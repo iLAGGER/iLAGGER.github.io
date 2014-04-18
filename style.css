@@ -1,0 +1,79 @@
+html
+{ 
+    background: #121212;
+    background-image: url("images/subtle-grey.png");
+    color: #fff;
+    font-size: 105%;
+    font-family: 'Arial';
+}
+#one
+{
+    margin:0 auto;
+	height: 150px;
+    width: 700px;
+    background: rgba(120, 120, 120, 0.3);
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    padding: 10px;
+
+}
+#avatar
+{
+    float: left;
+	height: 150px;
+    width: 150px;
+    padding-right: 15px;
+}
+#content
+{
+    margin:0 auto;
+	height: 180px;
+    width: 720px;
+    padding-top: 10px;    
+}
+#two
+{
+    float: left;
+	height: 180px;
+    width: 335px;
+    background: rgba(120, 120, 120, 0.3);
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    padding: 10px;
+}
+#three
+{  
+    float: right;
+	height: 180px;
+    width: 335px;
+    background: rgba(120, 120, 120, 0.3);
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    padding: 10px; 
+}
+#four
+{
+    float: left;
+    margin-top: 10px;
+	height: 180px;
+    width: 335px;
+    background: rgba(120, 120, 120, 0.3);
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    padding: 10px;
+}
+#five
+{  
+    float: right;
+    margin-top: 10px;
+	height: 180px;
+    width: 335px;
+    background: rgba(120, 120, 120, 0.3);
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    padding: 10px; 
+}
+#link
+{
+        color: #aaa;
+}

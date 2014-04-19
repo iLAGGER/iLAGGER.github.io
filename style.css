@@ -79,8 +79,8 @@ html
 }
 #liveinternet
 {
+    margin:0 auto;
 
-    margin-top: 20px;
     height: 180px;
     width: 335px;
     background: rgba(120, 120, 120, 0.3);

@@ -1,79 +1,62 @@
 html
 { 
-    background: #121212;
-    background-image: url("images/subtle-grey.png");
-    color: #fff;
-    font-size: 105%;
-    font-family: 'Arial';
-}
-#one
-{
-    margin:0 auto;
-	height: 150px;
-    width: 700px;
-    background: rgba(120, 120, 120, 0.3);
-    -moz-border-radius: 5px;  
-    -webkit-border-radius: 5px;
-    padding: 10px;
-
+    background-image: url("images/background.jpg");
+    background-size: 100%;
 }
 #avatar
 {
+    position: absolute;
     float: left;
-	height: 150px;
+    height: 210px;
+    width: 600px;
+    padding: 10px;
+    margin-left: 20%;
+    top: 33%;
+}
+#content_avatar
+{
+    float: left;
+    height: 150px;
     width: 150px;
-    padding-right: 15px;
+    padding: 30px;
 }
-#content
+#text_avatar
 {
-    margin:0 auto;
-	height: 180px;
-    width: 720px;
-    padding-top: 10px;    
-}
-#two
-{
-    float: left;
-	height: 180px;
-    width: 335px;
-    background: rgba(120, 120, 120, 0.3);
-    -moz-border-radius: 5px;  
-    -webkit-border-radius: 5px;
-    padding: 10px;
-}
-#three
-{  
     float: right;
-	height: 180px;
-    width: 335px;
-    background: rgba(120, 120, 120, 0.3);
-    -moz-border-radius: 5px;  
-    -webkit-border-radius: 5px;
-    padding: 10px; 
-}
-#four
-{
-    float: left;
-    margin-top: 10px;
-	height: 180px;
-    width: 335px;
-    background: rgba(120, 120, 120, 0.3);
-    -moz-border-radius: 5px;  
-    -webkit-border-radius: 5px;
-    padding: 10px;
-}
-#five
-{  
-    float: right;
-    margin-top: 10px;
-	height: 180px;
-    width: 335px;
-    background: rgba(120, 120, 120, 0.3);
-    -moz-border-radius: 5px;  
-    -webkit-border-radius: 5px;
-    padding: 10px; 
+    margin-top: 13%;  
+    opacity: 0.80; 
 }
 #link
 {
-        color: #aaa;
+    position: absolute;
+    float: right;
+    top: 5%;
+    left: 57%;
+    height: 600px;
+    width: 400px;
+    padding-top: 50px;
+}
+#vk_link
+{
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+
+}
+#tw_link
+{
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+
+}
+#inst_link
+{
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+
 }
